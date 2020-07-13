@@ -9,10 +9,10 @@ if the text file is empty, or does not exist, the painter will create one with d
 ## Navigation
 Similar to vim
 #### Movement Commands:
-j - move down
-k - move up
-l - move right
-h - move left
+j - move down  
+k - move up  
+l - move right  
+h - move left  
 
 shift + <movement command> - Paint current cell, then move in selected direction
 
