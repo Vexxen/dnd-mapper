@@ -16,7 +16,7 @@ h - move left
 
 shift + <movement command> - Paint current cell, then move in selected direction
 
-#### other commandes:
+#### other commands:
 w or s - open save window (type a name then hit Enter to save)
 Q - Quit out of window
 
