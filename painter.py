@@ -39,8 +39,11 @@ def main(stdscr):
     # stdscr.refresh()#must call refresh to update text changes on screen
     # stdscr.getkey()
     # try:
-    myPainter=PainterWindow(sys.argv[1], stdscr)
-    myPainter.run()
+    if len(sys.argv) != 2:
+        raise Exception("Usage: ./painter.py <filename>")
+    else:
+        myPainter=PainterWindow(sys.argv[1], stdscr)
+        myPainter.run()
     # except Exception as e:
     #     print(e)
     #     exit(1)

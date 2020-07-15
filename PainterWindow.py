@@ -146,7 +146,7 @@ class PainterWindow:
                 myFile=save.edit()
                 self.outfile=myFile.strip()
                 # self.statuspane.write(myFile,0,1)
-                self.statuspane.redraw()
+                # self.statuspane.redraw()
                 del save
                 del save_window
                 output=open(self.outfile, 'w+')
